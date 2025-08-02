@@ -1,0 +1,17 @@
+/* Updated styling for project boxes */
+.project-box {
+    -fx-background-color: #ffffff; /* White background for project details */
+    -fx-background-radius: 8; /* Rounded corners */
+    -fx-padding: 15; /* Padding inside the project box */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 2); /* Shadow effect */
+    -fx-border-color: #e0e0e0; /* Light gray border */
+    -fx-border-width: 1; /* Border width */
+    -fx-margin-bottom: 10; /* Space between project boxes */
+}
+
+/* Header labels styling */
+.label-header {
+    -fx-font-size: 14; /* Font size for better readability */
+    -fx-text-fill: #333; /* Dark gray text */
+    -fx-font-weight: bold; /* Bold text */
+}

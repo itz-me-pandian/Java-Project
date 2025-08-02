@@ -1,0 +1,66 @@
+.custom-table {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ccc;
+    -fx-table-cell-border-color: #ddd;
+    -fx-padding: 10;
+    -fx-alignment: CENTER;
+}
+
+.custom-table .column-header-background {
+    -fx-background-color: #4a90e2;
+    -fx-border-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.custom-table .table-row-cell {
+    -fx-background-color: #ffffff;
+}
+
+.custom-table .table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-cell {
+    -fx-padding: 5 10;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+/* General table styling */
+.custom-table {
+    -fx-background-color: #f8f8f8;
+    -fx-border-color: #ccc;
+    -fx-table-cell-border-color: #ddd;
+    -fx-padding: 10;
+    -fx-alignment: CENTER;
+    -fx-max-width: 600px; /* Max width */
+    -fx-table-header-border-color: #bdbdbd;
+}
+
+.custom-table .column-header-background {
+    -fx-background-color: #3a7bd5;
+    -fx-border-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.custom-table .table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-padding: 5 10; /* Add padding for a cleaner look */
+}
+
+.custom-table .table-row-cell:odd {
+    -fx-background-color: #f4f4f4;
+}
+
+.table-cell {
+    -fx-padding: 8 10;
+    -fx-alignment: CENTER;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}

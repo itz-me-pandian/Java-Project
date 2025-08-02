@@ -1,0 +1,22 @@
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-border-color: #4CAF50;
+    -fx-border-radius: 4px;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #45A049;
+}
+
+.status-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #FF5722;
+}

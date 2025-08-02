@@ -1,0 +1,122 @@
+/* Root container style */
+.root {
+    -fx-background-color: #f7f7f7;
+    -fx-padding: 15px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Label styling for general use */
+.label {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5px;
+}
+
+/* Styling for output fields to look like text boxes */
+.output-box {
+    -fx-background-color: #f0f0f0; /* Light background to resemble a text box */
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-pref-width: 150px;
+}
+
+/* TableView styling */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-max-height: 180px;
+}
+
+.table-row-cell:filled:selected, .table-cell:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: #ffffff;
+}
+
+.table-cell {
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+}
+
+.table-column-header {
+    -fx-background-color: #4CAF50;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 12px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Styling for the VBox layout containing information */
+.vbox {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+/* Header labels for student and faculty sections */
+.student-label, .faculty-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0px;
+}
+
+/* AlertBox styling for consistency */
+.alert-box {
+    -fx-background-color: #fff3cd;
+    -fx-border-color: #ffecb5;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #856404;
+    -fx-font-size: 14px;
+}
+
+/* style.css */
+.table-view .column-header {
+    -fx-pref-width: 150px; /* Preferred width for all columns */
+}
+
+.table-view .column-header-background {
+    -fx-background-color: lightgray;
+}
+
+.table-row-cell .table-cell {
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Target the specific column by its index (0 for the first column) */
+.table-view .table-cell:nth-child(1) {
+    -fx-pref-width: 150px; /* Adjust to your desired width */
+    -fx-max-width: 150px;
+}
