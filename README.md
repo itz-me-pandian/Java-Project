@@ -6,7 +6,7 @@ Welcome to "Student Projects Management System" java Project with JavaFX and MyS
 
 -Create the database 'java' in your database.
 
--Create five tables(admin,faculty,student,faculty,facultydisp,project) under 'java' database.
+-Create five tables(admin,faculty,student,faculty,facultydisp,project) under 'java' database(Table structures are given as img).
 
 -Create changes in Connection.java(password of your database) which is in Connections Package.
 
