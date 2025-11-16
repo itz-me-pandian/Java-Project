@@ -183,17 +183,19 @@ sequenceDiagram
 
     User->>StudentLoginUI: Enters credentials
     activate StudentLoginUI
+
     StudentLoginUI->>StudentLoginUI: Validates credentials (using Chapter 2 logic)
+
     alt Login Successful
         StudentLoginUI->>StudentDashboard: Creates new Student instance (passing ID, etc.)
-        StudentLoginUI->>StudentDashboard: Calls `start()` method on StudentDashboard
-        deactivate StudentLoginUI
+        StudentLoginUI->>StudentDashboard: Calls "start()" method on StudentDashboard
         StudentDashboard->>User: Displays Student Dashboard UI in main window
-        Note over StudentDashboard: `Student.java` takes control of the window
+        Note over StudentDashboard: Student.java takes control of the window
     else Login Failed
         StudentLoginUI->>User: Shows error message
-        deactivate StudentLoginUI
     end
+
+    deactivate StudentLoginUI
 ```
 
 **Step-by-Step Breakdown:**
@@ -213,5 +215,6 @@ Now that our users have their personalized control panels, how do these panels g
 Let's move on to [Chapter 4: Database Connection Manager](04_database_connection_manager_.md)!
 
 ---
+
 
 <sub><sup>**References**: [[1]](https://github.com/itz-me-pandian/Java-Project/blob/e7cb64105871cfd762b59639ef8dcab04ae6c2f7/Project/src/Admin/Admin.java), [[2]](https://github.com/itz-me-pandian/Java-Project/blob/e7cb64105871cfd762b59639ef8dcab04ae6c2f7/Project/src/Faculty/Faculty.java), [[3]](https://github.com/itz-me-pandian/Java-Project/blob/e7cb64105871cfd762b59639ef8dcab04ae6c2f7/Project/src/Student/Student.java)</sup></sub>
